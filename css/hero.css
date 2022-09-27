@@ -2,12 +2,33 @@
     height: 100vh;
     background: linear-gradient(rgba(16, 29, 44, 0.91), rgba(16, 29, 44, 0.91)), url("../Img1/background.jpg") center center fixed;
     background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 83%, 50% 100%, 50% 100%, 0 82%, 0% 30%);
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 83%, 50% 100%, 50% 100%, 0 82%, 0% 30%);
+
+
+}
+
+#line1 {
+    /* transform: translateY(-200%); */
+    transform: translate(-50%, -500%);
+
+    font-family: 'Pacifico', cursive;
+
+
+}
+
+#line2 {
+    transform: translate(-25%, -150%);
+    scale: 2;
+
+    font-family: 'Pacifico', cursive;
 
 }
 
 .subherotxt {
     position: absolute;
     transform: translateX(-50%);
+    font-family: 'Pacifico', cursive;
 
     left: 50%;
     top: 50%;
@@ -17,11 +38,13 @@
 }
 
 .herotxt {
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
     color: #ffffff;
     font-size: 80px;
     letter-spacing: 20px;
@@ -32,4 +55,5 @@
 
 .herotxt:hover {
     filter: blur(0);
+    font-family: 'Pacifico', cursive;
 }

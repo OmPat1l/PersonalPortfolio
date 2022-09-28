@@ -151,6 +151,18 @@
 }
 
 @media (max-width: 44em) {
+    .heading-secondary {
+        font-size: 2rem;
+    }
+
+    .heading-tertiary {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .step-number {
+        font-size: 3rem;
+    }
 
     .grid--3-cols,
     .grid--4-cols {

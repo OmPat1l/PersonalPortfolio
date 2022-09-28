@@ -9,6 +9,7 @@
     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 83%, 50% 100%, 50% 100%, 0 82%, 0% 30%);
     clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 83%, 50% 100%, 50% 100%, 0 82%, 0% 30%); */
     clip-path: polygon(0 0, 100% 0, 100% 80%, 51.25% 100%, 51.25% 100%, 0 80%, 0 24%);
+    /* border-right: 1px solid white; */
 
 
 }
@@ -30,6 +31,12 @@
     margin: auto;
 
     font-family: 'Pacifico', cursive;
+    filter: blur(3px);
+    transition: 0.3s all;
+    cursor: pointer;
+
+
+
 
 }
 
@@ -62,6 +69,11 @@
 }
 
 .herotxt:hover {
+    filter: blur(0);
+    font-family: 'Pacifico', cursive;
+}
+
+#line2:hover {
     filter: blur(0);
     font-family: 'Pacifico', cursive;
 }

@@ -1,9 +1,12 @@
 .interest {
-    height: 100vh;
-    background-color: linear-gradient(rgba(16, 29, 44, 0.816), rgba(16, 29, 44, 0.815)), #03242a;
+    /* height: 100vh; */
+    background: linear-gradient(rgba(23, 41, 61, 0.361), rgba(22, 40, 61, 0.308)), url("../Img1/bg2.jpg");
     margin-top: -20vh;
     padding-top: 20vh;
+    z-index: -1000;
 }
+
+
 
 .section-how {
     padding: 9.6rem 0;
@@ -12,12 +15,13 @@
 .step-number {
     font-size: 6.6rem;
     font-weight: 600;
-    color: #ddd;
+    color: #a52a2a;
     margin-bottom: 1.2rem;
 }
 
 .step-description {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    color: #f4a460;
     line-height: 1.8;
 }
 
@@ -48,20 +52,21 @@
     /* 60% of parent's width */
     padding-bottom: 70%;
 
-    background-color: #74c0fc;
-    z-index: -2;
+    background-color: rgba(109, 26, 26, 0.459);
+    z-index: .25;
 }
 
 .step-img-box::after {
     width: 55%;
     padding-bottom: 55%;
-    background-color: #a5d8ff;
-    z-index: -1;
+    background-color: rgba(188, 143, 143, 0.525);
+    z-index: .5;
 }
 
 .step-img {
-    width: 70%;
+    width: 80%;
     border-radius: 12px;
+    z-index: 1;
     /* z-index: 10; */
 }
 
@@ -101,12 +106,15 @@
     align-items: center;
 }
 
+.heading-secondary {
+    color: #a52a2a;
+}
+
 .heading-primary,
-.heading-secondary,
 .heading-tertiary {
     font-weight: 700;
     color: #333;
-    /* color: #45260a; */
+    color: #bc8f8f;
     /* color: #343a40; */
     letter-spacing: -0.5px;
 }

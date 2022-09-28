@@ -67,3 +67,23 @@
 .timeline__paragraph {
     line-height: 1.5;
 }
+
+@media (max-width:800px) {
+    .timeline {
+        margin-top: -17rem;
+
+
+    }
+}
+
+@media(max-width:600px) {
+    .timeline__component {
+        font-size: .7rem;
+    }
+}
+
+@media(max-width:400px) {
+    .timeline__component {
+        font-size: .6rem;
+    }
+}

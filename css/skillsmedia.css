@@ -1,0 +1,64 @@
+@media (max-width:1000px) {
+    .c-fancy-card {
+
+        /* min-width: 25vw !important; */
+        max-height: 35rem !important;
+        max-width: 25vw !important;
+
+
+
+
+    }
+
+    .c-fancy-cards-group {
+        overflow-x: scroll;
+
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .c-fancy-card h4 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:500px) {
+    .c-fancy-cards-group {
+        padding-left: 1rem !important;
+    }
+
+    .c-fancy-card {
+
+        /* min-width: 25vw !important; */
+        max-height: 10rem !important;
+        max-width: 40vw !important;
+        margin-left: -1rem !important;
+
+
+
+
+    }
+
+    .c-fancy-card h4 {
+        font-size: .6em;
+    }
+
+    .c-fancy-card h2 {
+        font-size: 1em;
+    }
+
+    .skilltxt {
+        margin-left: 5rem !important;
+    }
+
+    .c-fancy-card {
+        padding-left: none !important;
+    }
+
+    .c-fancy-card:hover {
+        /* transform: translate(0); */
+        z-index: 100;
+    }
+}

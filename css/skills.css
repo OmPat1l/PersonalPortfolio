@@ -7,7 +7,7 @@
     max-width: 100vw;
     /* margin: auto; */
     padding-left: 15rem;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     -webkit-overflow-scrolling: touch;
 }
 
@@ -51,6 +51,7 @@
 
 .c-fancy-card:hover {
     transform: translate(0, -1rem);
+    cursor: crosshair;
 }
 
 .c-fancy-card:nth-child(1) {
@@ -65,13 +66,13 @@
     background-color: aqua;
 }
 
-.c-fancy-card:nth-child(4) {
+.c-fancy-card:nth-child(5) {
     background-color: aqua;
 }
 
-.c-fancy-card:nth-child(5) {
+.c-fancy-card:nth-child(4) {
 
-    background: linear-gradient(rgba(16, 29, 44, 0.096), rgba(16, 29, 44, 0.11)), url("../skillsimg/wp7250222.jpg") center center fixed;
+    background: linear-gradient(rgba(16, 29, 44, 0.096), rgba(16, 29, 44, 0.11)), url("../skillsimg/wp7250222.jpg");
     background-size: cover;
 }
 

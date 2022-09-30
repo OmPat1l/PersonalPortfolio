@@ -105,7 +105,7 @@
     filter: blur(3px);
     transition: 0.3s all;
     cursor: pointer;
-    animation: blur 7s;
+    animation: blur 10s;
     animation-delay: 2s;
 
 

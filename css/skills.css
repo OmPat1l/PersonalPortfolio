@@ -14,12 +14,14 @@
 .skilltxt {
     margin-left: 40vw;
     color: #a52a2a;
+    animation: flicker 15s linear;
+    animation-delay: 1s;
 }
 
 .skills {
     background: linear-gradient(rgba(23, 41, 61, 0.361), rgba(22, 40, 61, 0.308)), url("../Img1/bg2.jpg");
-    margin-top: -20vh;
-    padding-top: 20vh;
+    margin-top: -25vh;
+    padding-top: 25vh;
     padding-top: 20vh;
     padding-bottom: 5vh;
 
@@ -55,19 +57,27 @@
 }
 
 .c-fancy-card:nth-child(1) {
-    background-color: aqua;
+
+    background: linear-gradient(rgba(16, 29, 44, 0.096), rgba(16, 29, 44, 0.11)), url("../skillsimg/th.jpg");
+    background-size: cover;
 }
 
 .c-fancy-card:nth-child(2) {
-    background-color: aqua;
+
+    background: linear-gradient(rgba(16, 29, 44, 0.652), rgba(16, 29, 44, 0.617)), url("../skillsimg/css.jpg");
+    background-size: cover;
 }
 
 .c-fancy-card:nth-child(3) {
-    background-color: aqua;
+
+    background: linear-gradient(rgba(16, 29, 44, 0.461), rgba(16, 29, 44, 0.427)), url("../skillsimg/design.jpg");
+    background-size: cover;
 }
 
 .c-fancy-card:nth-child(5) {
-    background-color: aqua;
+
+    background: linear-gradient(rgba(16, 29, 44, 0.539), rgba(16, 29, 44, 0.487)), url("../skillsimg/learn.jpg");
+    background-size: cover;
 }
 
 .c-fancy-card:nth-child(4) {

@@ -19,7 +19,7 @@
     margin-top: 10vh;
     /* top: 5rem; */
     color: #a52a2a;
-    animation: flicker 15s linear;
+    animation: flicker 15s infinite alternate;
     animation-delay: 1s;
 }
 

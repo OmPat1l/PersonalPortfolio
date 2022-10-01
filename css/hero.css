@@ -22,7 +22,7 @@
     /* text-shadow: 0 0 20px #d6336c; */
     /* content: attr(data-text); */
     /* filter: blur(10px) brightness(0); */
-    animation: flicker 15s linear;
+    animation: flicker 15s infinite alternate;
     animation-delay: 1s;
     /* animation-re: ; */
 
@@ -105,7 +105,7 @@
     filter: blur(3px);
     transition: 0.3s all;
     cursor: pointer;
-    animation: blur 10s;
+    animation: blur 6s infinite alternate;
     animation-delay: 2s;
 
 

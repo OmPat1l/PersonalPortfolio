@@ -54,11 +54,55 @@ h4 {
 
 .f-title {
     text-align: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.689);
+    /* padding-right: 5rem; */
 
-    margin-top: 30px;
-    font-size: 30px;
-    font-family: 'Rock Salt', cursive;
-    -webkit-animation: colorchange 5s infinite alternate;
+    margin-top: 5rem;
+    /* margin-left: -4rem; */
+    font-size: 4rem;
+    /* background-color: rgba(255, 255, 255, 0.498); */
+    /* font-family: 'Rock Salt', cursive; */
+    font-family: 'Pacifico', cursive;
+
+    /* -webkit-animation: colorchange 5s infinite alternate; */
+}
+
+@media (max-width:840px) {
+    .proj {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:800px) {
+    .f-title {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .date {
+        /* padding-left: 3rem; */
+    }
+}
+
+.proj {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bg12 {
+    background: url(../Img1/rocket.jpg) !important;
+    background-size: cover !important;
+    /* background-repeat: no-repeat !important; */
+
+}
+
+.bg123 {
+    background: url(../Img1/MSIP.jpg) !important;
+    background-size: cover !important;
+
+
 }
 
 .zayn_1 {

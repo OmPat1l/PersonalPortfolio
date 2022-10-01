@@ -28,7 +28,7 @@
     margin-top: -30vh;
     padding-top: 25vh;
     padding-top: 20vh;
-    padding-bottom: 8vh;
+    padding-bottom: 15vh;
 
     /* margin-bottom: 20vh; */
     -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
@@ -50,6 +50,10 @@
     box-shadow: -1rem 0 3rem #000;
     color: white;
     transition: 0.2s;
+}
+
+.c-fancy-card h4 {
+    font-size: 1.2rem;
 }
 
 .c-fancy-card:not(:first-child) {

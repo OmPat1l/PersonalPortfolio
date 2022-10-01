@@ -1,0 +1,43 @@
+.profile {
+    height: 60vh;
+    max-width: 80vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.525);
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 2fr 4fr;
+    color: black;
+    margin-top: 8vh;
+    border-radius: 20px;
+}
+
+.profimg {
+    background-image: url('../Img1/profback.jpg');
+    background-size: cover;
+    /* overflow: hidden !important; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    filter: blur(20);
+    position: relative;
+
+}
+
+.profimgOm {
+    background-image: url('../Img1/profimg.jpg');
+    z-index: 1000;
+    position: absolute;
+    /* top: 50%; */
+    /* right: 50%; */
+    height: 15rem;
+    left: 15%;
+    top: 20%;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+
+    width: 15rem;
+}
+
+.profimg img {
+    z-index: 100;
+}

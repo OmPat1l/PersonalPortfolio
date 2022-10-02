@@ -113,6 +113,14 @@
 
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
+*:focus {
+    color: #bc8f8f;
+}
+
 @keyframes blur {
     0% {
         filter: blur(1);

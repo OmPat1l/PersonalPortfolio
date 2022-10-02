@@ -22,16 +22,31 @@
 
 }
 
+.proftxt h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #343a40;
+}
+
+.proftxt h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #343a40;
+
+}
+
 @media (max-width:1000px) {
     .profimgOm {
         height: 10rem !important;
         width: 10rem !important;
     }
 
+
+}
+
+@media (max-width:1200px) {
+
     .proftxt h2 {
         font-size: 1.4rem;
     }
-
 }
 
 @media (max-width:840px) {
@@ -63,6 +78,10 @@
         /* background-color: white !important; */
         background-image: none;
 
+    }
+
+    .proftxt {
+        background-color: rgba(255, 255, 255, 0.269);
     }
 
     .profimgOm {
@@ -122,8 +141,9 @@
     z-index: 100;
 }
 
-.proftxt h2 {
+.proftxt {
     padding: 2rem;
+    /* overflow: scroll; */
     /* font-size: 1.7rem; */
 
 }

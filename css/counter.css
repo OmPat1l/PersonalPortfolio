@@ -1,0 +1,112 @@
+.counterc {
+    background: linear-gradient(rgba(16, 29, 44, 0.894), rgba(16, 29, 44, 0.815)), url("../Img1/mystory.jpg") center center fixed;
+    margin: auto;
+    max-width: 100vw;
+    /* height: 100vh; */
+    padding-top: 22rem;
+    padding-bottom: 15rem;
+    margin-top: -20rem;
+    /* padding: 25px; */
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff;
+    -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    clip-path: polygon(50% 20%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    position: relative;
+}
+
+.wrapperc {
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.countertxt {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    color: #bc8f8f;
+    font-family: cursive;
+}
+
+.containerc {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #a52a2a;
+}
+
+i {
+    color: #bc8f8f;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.numc {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+span.textc {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapperc {
+        width: 85vw;
+    }
+
+    .containerc {
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapperc {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .containerc {
+        width: calc(50% - 40px);
+        height: 30vmin;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapperc {
+        gap: 15px;
+    }
+
+    .containerc {
+        width: 100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+}

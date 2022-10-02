@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/skillsmedia.css">
 
     <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/counter.css">
     <link rel="stylesheet" href="./css/interest.css">
     <link rel="stylesheet" href="./css/profile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +26,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/dumy.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -297,24 +303,7 @@
 
 
 
-        <!-- <div id="con3">
-            <div class="zayn_4 shadow">
-                <div class="proj">
-                    <div class="projimg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, expedita.
-                    </div>
-                    <div class="projtxt">
-                        These are my latest Real world Projects
-                    </div>
 
-                </div>
-
-
-                <div class="overlay"></div>
-
-
-                <h4></h4>
-            </div>
-        </div> -->
 
 
 
@@ -327,11 +316,12 @@
                 <div class="profimgOm"> &nbsp;</div>
             </div>
             <div class="proftxt">
-                <h1>HI,👋 I AM OM </h1>
+                <h1>HI, I AM OM👋 </h1>
                 <H2>Now that you know me a bit, lets dig deeper! <br>
-                    •I am a Second year Undergrad at the prestigious College of Engineering,Pune. <br> •Born and brought
+                    •I am a Second year Undergrad at College of Engineering,Pune. <br> •Born and brought
                     up in Pune, I was attracted towards tech since my childhood, and now, combined with my other
-                    interests I am motivated to build something which would make this world a better place! </H2>
+                    interests, I am motivated to build something which would make this world a better place! <br> •To
+                    know more about me, visit my LinkedIn profile. </H2>
 
             </div>
 
@@ -341,6 +331,44 @@
 
 
     </div>
+    <div class="counterc">
+        <h1 class="countertxt">My <a href="https://www.linkedin.com/in/ompatil130503" style="text-decoration: none;">
+                <strong style="color:rgb(0, 132, 255)">Linked</strong><strong style="color: white;">In</strong></a>
+            Numbers
+            ;)
+        </h1>
+        <div class="wrapperc">
+            <div class="containerc">
+                <i class="fa-sharp fa-solid fa-users"></i>
+                <span class="numc" data-val="14000+">000</span>
+                <span class="textc">Impressions</span>
+            </div>
+
+            <div class="containerc">
+                <i class="fa-sharp fa-solid fa-user"></i>
+                <span class="numc" data-val="462+">000</span>
+                <span class="textc">Followers</span>
+            </div>
+
+            <div class="containerc">
+                <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                <span class="numc" data-val="14">000</span>
+                <span class="textc">Posts and Articles</span>
+            </div>
+
+            <div class="containerc">
+                <i class="fa-sharp fa-solid fa-eye"></i>
+                <span class="numc" data-val="240">000</span>
+                <span class="textc">Profile Views</span>
+            </div>
+        </div>
+    </div>
+    <!-- <footer class="foot">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </footer> -->
 
 
 
@@ -364,6 +392,22 @@
                 nav.checked = false;
             }
         }
+
+        let valueDisplays = document.querySelectorAll(".numc");
+        let interval = 6000;
+
+        valueDisplays.forEach((valueDisplay) => {
+            let startValue = 0;
+            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            let duration = Math.floor(interval / endValue);
+            let counter = setInterval(function () {
+                startValue += 1;
+                valueDisplay.textContent = startValue;
+                if (startValue == endValue) {
+                    clearInterval(counter);
+                }
+            }, duration);
+        });
     </script>
 </body>
 

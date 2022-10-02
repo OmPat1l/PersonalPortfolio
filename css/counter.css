@@ -92,16 +92,36 @@ span.textc {
         gap: 30px;
     }
 
+    .counterc {
+        padding-top: 32rem;
+    }
+
     .containerc {
         width: calc(50% - 40px);
         height: 30vmin;
         font-size: 14px;
+    }
+
+    .countertxt {
+        bottom: 5%;
+        font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .wrapperc {
         gap: 15px;
+    }
+
+    .profimgOm {
+        height: 5rem !important;
+        width: 5rem !important;
+    }
+
+
+
+    .proftxt {
+        font-size: .5rem !important;
     }
 
     .containerc {

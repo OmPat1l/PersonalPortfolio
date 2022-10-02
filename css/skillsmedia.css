@@ -10,8 +10,13 @@
 
     }
 
+    .c-fancy-card h4 {
+        visibility: hidden;
+
+    }
+
     .c-fancy-cards-group {
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
 
     }
 
@@ -40,10 +45,7 @@
         padding-left: 1rem !important;
     }
 
-    .c-fancy-card h4 {
-        visibility: hidden;
 
-    }
 
     .c-fancy-card {
 

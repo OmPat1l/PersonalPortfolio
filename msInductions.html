@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Mindspark induction website" />
+
+  <!-- Always include this line of code!!! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+  <script defer src="js/script.js"></script>
+
+  <title>MindSpark CoEP</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#">
+      <img class="logo" alt="Mindspark logo" src="img/logo.svg">
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#how">Trendy</a></li>
+        <li><a class="main-nav-link" href="#meals">Events</a></li>
+        <li>
+          <a class="main-nav-link" href="#testimonials">Testimonials</a>
+        </li>
+        <li><a class="main-nav-link" href="#pricing">Workshops</a></li>
+        <li><a class="main-nav-link nav-cta" href="#cta">Campus Ambassador</a></li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Innovate, Connect, Inspire.
+          </h1>
+          <p class="hero-description">
+            MindSpark is the annual, national level technical festival of College of Engineering, Pune. Over a span of
+            14 years,
+            MindSpark has grown to become one of the biggest technical college fests in the country.
+
+
+          </p>
+          <a href="#cta" class="btn btn--full margin-right-sm main-nav-link">Campus Ambassador</a>
+
+          <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+            </div>
+            <p class="delivered-text">
+              <span>120,000+</span> Audience every season
+            </p>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <picture>
+            <source srcset="img/msLOGO.jpg" type="image/webp" />
+            <source srcset="img/msLOGO" type="image/png" />
+
+            <img src="img/msLOGO.jpg" class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-how" id="how">
+      <div class="container">
+        <span class="subheading">Centre of attraction</span>
+        <h2 class="heading-secondary">
+          There is always something brewing...
+      </div>
+
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- STEP 01 -->
+        <div class="step-text-box">
+          <p class="step-number">01</p>
+          <h3 class="heading-tertiary">
+            MindSpark-Hackathon
+          </h3>
+          <p class="step-description">
+            In association with SDS, Coep,<br>
+            This is a 24-hour hackathon to code, strategize and innovate some ingenious solutions to the most sought out
+            real life problem statements.
+          </p>
+        </div>
+
+        <div class="step-img-box">
+          <img src="img/1F.jpg" class="step-img" alt="Hackathon Image" />
+        </div>
+
+        <!-- STEP 02 -->
+        <div class="step-img-box">
+
+
+          <img src="img/Paakhi.svg" class="step-img" alt="Paakhi Homescreen" />
+
+        </div>
+        <div class="step-text-box">
+          <p class="step-number">02</p>
+          <h3 class="heading-tertiary">Paakhi-The social initiative of Mindspark</h3>
+          <p class="step-description">
+            I AM STRONG, I AM BEAUTIFUL, I AM ENOUGH.<br>
+            Started as a social cause in 2015,Paakhi,the social initiative of MindSpark has aimed to help women embrace
+            their true potential.
+          </p>
+        </div>
+
+        <!-- STEP 03 -->
+        <div class="step-text-box">
+          <p class="step-number">03</p>
+          <h3 class="heading-tertiary">Enlightening Workshops</h3>
+          <p class="step-description">
+            Get an opportunity to attend workshops spread out across different domains and interest. Connect with
+            like-minded people.
+          </p>
+        </div>
+        <div class="step-img-box">
+          <img src="img/workshops.jpg" class="step-img" alt="Person taking workshop" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-meals" id="meals">
+      <div class="container center-text">
+        <span class="subheading">Enroll now!</span>
+        <h2 class="heading-secondary">
+          Participate in MindSpark's exciting events!!
+        </h2>
+      </div>
+
+      <div class="container grid grid--3-cols margin-bottom-md ">
+        <div class="meal ">
+          <img src="img/msEvents/Accelero.png" class="meal-img" alt="Accelero" style="background: rgb(63,251,239);
+          background: radial-gradient(circle, rgba(63,251,239,1) 0%, rgba(132,252,70,1) 100%);
+        
+        " />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20 seats left</span>
+            </div>
+
+            <p class="meal-title">ACCELERO</p>
+
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo numquam eligendi, </span>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Amuzia.png" class="meal-img" alt="Amuzia" style="background: rgb(251,170,63);
+          background: radial-gradient(circle, rgba(251,170,63,1) 0%, rgba(252,70,70,1) 100%);" />
+          <div class=" meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian" style="background-color:#ff8787">2 seats left</span>
+
+            </div>
+            <p class="meal-title">AMUZIA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>The cool thing is doing the things which can only be done in gaming. Fun is
+                  as important as academics.</span>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Codifica.png" class="meal-img" alt="Codifica" style="background: rgb(238,197,174);
+          background: radial-gradient(circle, rgba(238,197,174,1) 0%, rgba(223,233,148,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">CODIFICA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Coder ? <br>This is the right place for you to show case your coding skills.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- pasting copy -->
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/msEvents/Illuminati.png" class="meal-img" alt="Illuminati" style="background: rgb(63,94,251);
+          background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">ILLUMINATI</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Close your books,open your mind. Where smart answers wont get you fired.
+                  Come,Conquer,<br>Conquest.</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="meal">
+
+
+          <img src="img/msEvents/Dynamus.png" class="meal-img" alt="Dynamus" style=" background:
+            rgb(10,0,36); background: linear-gradient(90deg, rgba(235, 231, 187, 0.945) 0%, rgba(224,232,19,1)
+            30%, rgba(255,89,0,1) 100%);" />
+
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--paleo">8 seats left</span>
+
+
+
+            </div>
+            <p class="meal-title">DYNAMUS</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Events related to Mechanical, Production and Metallurgy branch.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Ingenia.png" class="meal-img" alt="Ingenia" style="background: rgb(34,108,195);
+          background: linear-gradient(0deg, rgba(34,108,195,1) 0%, rgba(45,252,253,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">INGENIA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Event for excersing your brain with interesting and mind flicking events.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/msEvents/Interpreta.png" class="meal-img" alt="Interpreta" style="background: rgb(251,223,63);
+          background: radial-gradient(circle, rgba(251,223,63,1) 0%, rgba(95,252,70,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">Interpreta</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit commodi magni quae neque et
+                  soluta?</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Logica.png" class="meal-img" alt="Logica" style="background: rgb(251,63,244);
+            background: radial-gradient(circle, rgba(251,63,244,1) 0%, rgba(155,70,252,1) 100%);" />
+          <div class=" meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">LOGICA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Get ready for exciting logical reasoning full of puzzles,maths and more.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Robotica.png" class="meal-img" alt="Robotica" style="background: rgb(236,174,238);
+          background: radial-gradient(circle, rgba(236,174,238,1) 0%, rgba(233,148,148,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegan">opening soon</span>
+
+            </div>
+
+            <p class="meal-title">Robotica</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>It's the age of Robots. Dive in the world of robots. Participate in exciting
+                  robot events.</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/msEvents/Structura.png" class="meal-img" alt="Structura" style="background: rgb(63,251,239);
+          background: radial-gradient(circle, rgba(63,251,239,1) 0%, rgba(252,237,70,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">STRUCTURA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Dive in world of Civil Engineering. Plan,Build,Create.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Substantia.png" class="meal-img" alt="Substantia" style="background: rgb(63,251,217);
+            background: radial-gradient(circle, rgba(63,251,217,1) 0%, rgba(70,252,103,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">SUBSTANTIA</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>
+                  <p>Demistify your love for chemistry with these events.</p>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/msEvents/Voltus.png" class="meal-img" alt="Voltus" style="background: rgb(63,222,251);
+            background: radial-gradient(circle, rgba(63,222,251,1) 0%, rgba(149,70,252,1) 100%);" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">20+ seats left</span>
+            </div>
+            <p class="meal-title">VOLTUS</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Electrify your passion for circuit making and playing with micro controllers.
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- pasting copy ends -->
+
+      <div class="container all-recipes" style="color:#74c0fc ">
+        <a href="#" class="link">HOME PAGE &rarr;</a>
+      </div>
+    </section>
+
+    <section class="section-testimonials" id="testimonials">
+      <div class="testimonials-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="heading-secondary">Reaching new heights every year</h2>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Dave Bryson" src="img/customers/dave.jpg" />
+            <blockquote class="testimonial-text">
+              The Tech Fair gave me the opportunity to connect to a lot of interesting people.
+              It was definitely worth the time
+            </blockquote>
+            <p class="testimonial-name">&mdash; Rahul</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/ben.jpg" />
+            <blockquote class="testimonial-text">
+              MindSpark was a great opportunity to exhibit our skils make projects and connect with talents
+            </blockquote>
+            <p class="testimonial-name">&mdash; Siddhant</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Steve Miller" src="img/customers/steve.jpg" />
+            <blockquote class="testimonial-text">
+              I participated in MindSpark and I will 100% be back next year. Very good organized and great way to meet
+              very interesting talent..
+            </blockquote>
+            <p class="testimonial-name">&mdash; Steve</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Hannah Smith" src="img/customers/hannah.jpg" />
+            <blockquote class="testimonial-text">
+              MindSpark ignited my inner spirit
+            </blockquote>
+            <p class="testimonial-name">&mdash; Prisha</p>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img src="img/Testimonials/1.jpg" alt="Gallery-pic" />
+          <!-- <figcaption>Caption</figcaption> -->
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/2.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/3.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/4.jpg " alt=" Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/5.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/8.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/6.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/7.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/12.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/9.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/10.jpg" alt="Gallery-pic" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/Testimonials/11.jpg" alt="Gallery-pic" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-pricing" id="pricing">
+      <div class="container">
+        <span class="subheading">workshops</span>
+        <h2 class="heading-secondary">
+          Explore, Bridge and Learn.
+        </h2>
+      </div>
+
+      <div class="container grid grid--2-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/ROBOT1.jpg" class="meal-img" alt="Voltus" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian float-bar" style="background-color:#ffe066">Register Today!</span>
+            </div>
+            <p class="meal-title">RSC Webinar -I</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Get a chance to develop a range of skills, which support a wide technical knowledge across
+                  different engineering disciplines.
+                </span>
+                </span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/Testimonials/5.jpg" class="meal-img" alt="Voltus">
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian" style="background-color:#ffe066">Register Today!</span>
+            </div>
+            <p class="meal-title">RSC Webinar- II</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Get to know about cobot and innovative technology in industrial robotics, and experience the
+                  intelligent functioning of Mitsubishi Robot!</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="meal">
+          <img src="img/3D.jpg" class="meal-img" alt="Voltus">
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian" style="background-color:#ffe066">Register Today!</span>
+            </div>
+            <p class="meal-title">Autodesk Workshop</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Grab this chance to learn how modern 3D modeling breathes life into concepts, and explore ways in
+                  which 3D modeling and CAD software have vastly improved the design process.</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="img/RP.jpg" class="meal-img" alt="Voltus">
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian" style="background-color:#ffe066">Register Today!</span>
+            </div>
+            <p class="meal-title">Research Paper Webinar</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+
+                <span>Enhance your technical writing skills and learn how to present your discoveries.</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="container grid">
+        <aside class="plan-details">
+          Workshops are catalysts in everyones's learning journey, never miss one!!
+        </aside>
+      </div>
+
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="book-outline"></ion-icon>
+          <p class="feature-title">Certificates</p>
+          <p class="feature-text">
+            In Mindspark alongwith best in class exposure you will also recieve a Certificate.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="people-outline"></ion-icon>
+          <p class="feature-title">Amiable Team</p>
+          <p class="feature-text">
+            We CoEPians gather here as a team and ensure the smooth conduct of MindSpark.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon" name="earth-outline"></ion-icon>
+          <p class="feature-title">Socially Active</p>
+          <p class="feature-text">
+            With various initiatives such as paakhi, we aim at bringing change in the society as a whole.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon name="diamond-outline" class="feature-icon"></ion-icon>
+          <p class="feature-title">Connect</p>
+          <p class="feature-text">
+            At MindSpark we believe in co-ordination and peer-growth, which helps connecting with like-minded people.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section-cta" id="cta">
+
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+
+
+            <h2 class="heading-secondary">Earn exclusive goodies and much more!!</h2>
+
+            <p class="cta-text">
+              MindSpark’s Campus Ambassador Program is where students from various colleges across the nation are shaped
+              to become efficient managers and great leaders. Enroll now and start your journey as a Campus Ambassador.
+            </p>
+
+            <form class="cta-form" name="sign-up" netlify>
+              <div>
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" placeholder="Om Patil" name="full-name" required />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="me@example.com" name="email" required />
+              </div>
+
+              <div>
+                <label for="select-where">Where did you hear about us?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Instagram</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+
+
+
+            </form>
+          </div>
+
+
+          <div class="cta-img-box" role="img" aria-label="handshake"></div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <footer class="footer" style="padding-top: 15px;">
+    <section class="section-featured" style="padding:0%">
+      <div class="container">
+        <h2 class="heading-featured-in">our patronages</h2>
+        <div class="logos" style="display: flex; gap:5rem;">
+          <img src="img/Patronages/aicte.jpg" alt="aicte logo" />
+          <img src="img/Patronages/digitalindia.jpg" alt="Digital India logo" />
+          <img src="img/Patronages/unesco.jpg" alt="unesco logo" />
+
+        </div>
+      </div>
+    </section>
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">OUR sponsors</h2>
+        <div class="logos">
+          <img src="img/sponsors/codechef.jpg" alt="Techcrunch logo" />
+          <img src="img/sponsors/d2c.jpg" alt="Business Insider logo" />
+          <img src="img/sponsors/autodesk.jpg" alt="The New York Times logo" />
+          <img src="img/sponsors/finiq.jpg" alt="Forbes logo" />
+          <img src="img/sponsors/keller.png" alt="USA Today logo" />
+        </div>
+      </div>
+    </section>
+    <div class="container grid grid--footer">
+      <div class="logo-col">
+        <a href="#" class="footer-logo">
+          <img class="logo" alt="Omnifood logo" src="img/logo.png"
+            style="border-radius: 0%; background-color: #74c0fc; box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.37);" />
+        </a>
+
+        <ul class="social-links">
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright &copy; <span class="year">2027</span> by Om Patil Inc.
+          All rights reserved.
+        </p>
+      </div>
+
+      <div class="address-col">
+        <p class="footer-heading">Contact us</p>
+        <address class="contacts">
+          <p class="address">
+            College Of Engineering Pune, Wellesley Road, Shivajinagar, Pune 411005
+
+          </p>
+          <p>
+            <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br />
+            <a class="footer-link" href="mailto:omap21.extc@coep.ac.in">omap21.extc@coep.ac.in</a>
+          </p>
+        </address>
+      </div>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Account</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Create account</a></li>
+          <li><a class="footer-link" href="#">Sign in</a></li>
+          <li><a class="footer-link" href="#">iOS app</a></li>
+          <li><a class="footer-link" href="#">Android app</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Company</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">About MindSpark</a></li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Brand partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">Resources</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Directories</a></li>
+          <li><a class="footer-link" href="#">Help center</a></li>
+          <li><a class="footer-link" href="#">Privacy & terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>

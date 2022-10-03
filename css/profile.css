@@ -72,7 +72,7 @@
 
 @media (max-width:750px) {
     .proftxt h2 {
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
         /* overflow: scroll; */
 
     }
@@ -130,9 +130,9 @@
 
 @media (max-width:390px) {
     .profimgOm {
-        left: 70% !important;
-        width: 4rem !important;
-        height: 4rem !important;
+        left: 30% !important;
+        width: 8rem !important;
+        height: 8rem !important;
         /* top: 0; */
     }
 

@@ -47,6 +47,7 @@
 .social1 {
     color: #1971c2;
     transition: all .1s;
+    animation: glow 1s infinite alternate;
 
 
 }
@@ -113,8 +114,11 @@
 }
 
 .social2 {
-    color: white;
+    color: rgba(255, 255, 255, 0.467);
     transition: all .1s;
+    animation: glow 1s infinite alternate;
+    animation-delay: 1s;
+
 
 
 
@@ -129,6 +133,8 @@
 
     color: #e64980;
     transition: all .1s;
+    animation: glow 1s infinite alternate;
+
 
 
 
@@ -143,6 +149,8 @@
 .social4 {
     color: #1971c2;
     transition: all .1s;
+    animation: glow 1s infinite alternate;
+    animation-delay: 1s;
 
 
 

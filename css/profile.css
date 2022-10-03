@@ -37,7 +37,7 @@
 }
 
 .mainprofile {
-    margin-top: -3rem;
+    margin-top: -6rem;
 }
 
 @media (max-width:1000px) {
@@ -56,6 +56,12 @@
     }
 }
 
+@media (max-width:500px) {
+    .proftxt {
+        font-size: .3 !important;
+    }
+}
+
 @media (max-width:840px) {
     .profile {
         /* display: flex !important; */
@@ -64,7 +70,7 @@
     }
 }
 
-@media (max-width:750) {
+@media (max-width:750px) {
     .proftxt h2 {
         font-size: 1.2rem !important;
         /* overflow: scroll; */
@@ -100,19 +106,45 @@
     }
 }
 
-@media (max-width:500) {
+@media (max-width:500px) {
     .profimgOm {
         /* left: 60% !important; */
+        /* width: 4rem !important;
+        height: 4rem !important; */
+        /* top: 0; */
+    }
+
+    .proftxt {
+        /* width: 70% !important; */
+        font-size: 80%;
+
+    }
+
+}
+
+@media (max-width:350px) {
+    .countertxt {
+        margin-left: -2rem;
+    }
+}
+
+@media (max-width:390px) {
+    .profimgOm {
+        left: 70% !important;
         width: 4rem !important;
         height: 4rem !important;
         /* top: 0; */
     }
 
-    .proftxt h2 {
-        font-size: .7em !important;
+    .proftxt {
+        /* width: 70% !important; */
+        font-size: 40% !important;
+        /* overflow: scroll; */
+
     }
 
 }
+
 
 .profimgOm {
     background-image: url('../Img1/profimg1.jpg');

@@ -4,7 +4,7 @@
     padding-top: 20vh;
     -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
     clip-path: polygon(50% 20%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -48,11 +48,74 @@
     color: #1971c2;
     transition: all .1s;
 
+
+}
+
+@keyframes glow {
+    10% {
+        filter: brightness(200%);
+
+    }
+
+
+    20% {
+        filter: brightness(100%);
+
+
+    }
+
+    30% {
+
+
+        filter: brightness(200%);
+
+
+    }
+
+
+    40% {
+        filter: brightness(100%);
+
+    }
+
+    50% {
+
+
+        filter: brightness(200%);
+
+
+    }
+
+    60% {
+        filter: brightness(100%);
+
+    }
+
+    70% {
+        filter: brightness(200%);
+
+    }
+
+    80% {
+        filter: brightness(100%);
+
+    }
+
+    1 90% {
+        filter: brightness(200%);
+
+    }
+
+    100% {
+        filter: brightness(100%);
+
+    }
 }
 
 .social2 {
     color: white;
     transition: all .1s;
+
 
 
 }
@@ -68,6 +131,8 @@
     transition: all .1s;
 
 
+
+
 }
 
 .social3:hover {
@@ -78,6 +143,8 @@
 .social4 {
     color: #1971c2;
     transition: all .1s;
+
+
 
 }
 

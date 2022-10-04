@@ -114,7 +114,7 @@
 }
 
 .social2 {
-    color: rgba(255, 255, 255, 0.467);
+    color: rgba(255, 255, 255, 0.873);
     transition: all .1s;
     animation: glow 1s infinite alternate;
     animation-delay: 1s;

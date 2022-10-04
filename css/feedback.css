@@ -10,10 +10,10 @@
 
 .btnfeedback {
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: rgba(255, 255, 255, 0.79);
     background-color: rgba(188, 143, 143, 0.72);
-    padding: .5rem;
+    padding: 1rem;
     border-radius: 10px;
     transition: all .2s;
     animation: btncir 1s infinite alternate;

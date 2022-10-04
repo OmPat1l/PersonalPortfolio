@@ -130,9 +130,9 @@
 
 @media (max-width:390px) {
     .profimgOm {
-        left: 30% !important;
-        width: 8rem !important;
-        height: 8rem !important;
+        /* left: 30% !important; */
+        /* width: 8rem !important; */
+        /* height: 8rem !important; */
         /* top: 0; */
     }
 

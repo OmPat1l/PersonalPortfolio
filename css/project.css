@@ -15,6 +15,13 @@
     /* position: relative; */
 }
 
+body {
+    background: linear-gradient(rgba(16, 29, 44, 0.894), rgba(16, 29, 44, 0.815)), url("../Img1/work.jpg") center center fixed;
+
+}
+
+
+
 #con {
     width: 75%;
     margin: 0 auto;
@@ -80,9 +87,7 @@ h4 {
         margin-top: 3rem;
     }
 
-    .date {
-        /* padding-left: 3rem; */
-    }
+
 }
 
 .proj {
@@ -155,7 +160,8 @@ h4 {
 .zayn_4 {
     position: relative;
     margin-top: 1px;
-    background: url(../Img1/bimg.jpg);
+    background: url(../Img1/blogbg.jpg);
+
 
     background-size: cover;
     background-repeat: no-repeat;

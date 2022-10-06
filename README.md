@@ -23,6 +23,6 @@ This site is linked to my other projects
 This project also includes a feedback form, which is further integrated to netlify for collecting form responses.
 Additionally, this page is connected to my blog site landing page.
 
-to host my page locally, just clone my repo and its ready to use
-(in case one needs my blogsite as well, you can clone it from my other repo and include thode files in same folder and run)
+to host my page locally, just clone my repo and its ready to use!
+
 

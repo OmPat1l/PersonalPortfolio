@@ -1,11 +1,17 @@
 # PersonalPortfolio
-This site broadly consists of 6 segments
+
+you can visit my website at ompatil.site
+
+This site broadly consists of 7 segments
 1)Hero Section
 2)Interests
 3)Storyline
 4)Skills
 5)Projects
 6)Profile, footer, and personal details
+And the most exciting one, 
+7) Live chat with Tawk to API (Unlimited chats with file sharing, reactions and much more!!)
+(this is not a chat bot, it supports live chat with the admin, if the admin is offline you can simply drop a message, I will get to it whenever i will be On)
 
 The tech stack used here includes 
 HTML,CSS and a bit of JS
